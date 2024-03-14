@@ -7,7 +7,7 @@ const chatbotCloseBtn = document.querySelector(".close-btn")
 
 let userMessage;
 //Add the API_KEY
-let API_KEY = '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'
+let API_KEY = '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'
 
 //Use Prompt engineering techniques to assign a role to your GPT and a tone
 //Tell it to act as an expert in the field you decided 
