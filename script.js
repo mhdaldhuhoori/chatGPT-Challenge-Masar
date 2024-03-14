@@ -7,11 +7,11 @@ const chatbotCloseBtn = document.querySelector(".close-btn")
 
 let userMessage;
 //Add the API_KEY
-let API_KEY = "TODO";
+let API_KEY = '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'
 
 //Use Prompt engineering techniques to assign a role to your GPT and a tone
 //Tell it to act as an expert in the field you decided 
-let role ="TODO ";
+let role ="Dietitian";
 
 const inputInitHeight = chatInput.scrollHeight;
 
@@ -85,4 +85,3 @@ chatInput.addEventListener("keydown", (e) => {
 sendChatBtn.addEventListener("click", handleChat);
 chatbotCloseBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
-
